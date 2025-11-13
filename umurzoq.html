@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        background: linear-gradient(#ff000041, #0000ff59);
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 300px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+      }
+      .bir {
+        margin-top: 40px;
+    
+      }
+      .ikki {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #0000001a;
+        width: 800px;
+      }
+      .ikki input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: rgb(228, 143, 128);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      button{
+        background-color: rgb(201, 99, 82);
+       width: 100%;
+       padding: 15px;
+       margin-bottom: auto;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       margin-top: 50px;
+       margin-bottom: 50px;
+    
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bir">
+      <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <div class="ikki">
+        <label for="text"><b>Ism</b></label>
+        <br>
+        <input type="text" id="text" name="text">
+        <br>
+        <br><br>
+        
+        <label for="text"><b>Familiya</b></label>
+        <br>
+        <input type="text" id="text" name="text">
+        <br>
+        <br>
+         <label for="email"><b>email:</b></label>
+        <br>
+        <input type="text" id="email" name="email">
+        <br>
+        <b>Jinsi</b>
+        <ul id="name" class="radiolist">
+          <li class="radio">
+            <input id="name-1" type="radio" name="name" value="radio1">
+            <label class="radio" for="name-1">Erkak</label>
+          </li>
+          <li class="radio">
+            <input id="name-2" type="radio" name="name" value="radio2">
+            <label class="radio" for="name-2">ayol</label>
+          </li>
+        </ul>
+        <b>shahsiy malumot</b>
+        <br><br>
+        <textarea name="O'zi haqida malumot" rows="8" cols="100px">O'zim haqida malumot</textarea>
+        <br>
+        <button>saqlash</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
